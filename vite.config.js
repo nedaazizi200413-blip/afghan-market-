@@ -4,7 +4,7 @@ import babel from '@rolldown/plugin-babel'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/afghan-market/",
+  base: "/afghan-market-/",
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })

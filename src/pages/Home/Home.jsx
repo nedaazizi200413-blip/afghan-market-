@@ -238,7 +238,7 @@ const Home = () => {
                   <FaHeart /> علاقه
                 </button>
 
-                {/* ✅ مهم‌ترین اصلاح اینجاست */}
+
                 <Link
                   to={`/product/${item.id}`}
                   state={{ product: item }}
